@@ -2,7 +2,7 @@
 
 ![Project Continuity: Resume from current evidence. Keep useful past results. Finish the next authorized step.](assets/hero.svg)
 
-[MIT](LICENSE) · [Downloads](https://github.com/Vadale/project-continuity/releases) · [Report a problem](https://github.com/Vadale/project-continuity/issues)
+[MIT](LICENSE) · [Downloads](https://github.com/Vadale/project-continuity-skill/releases) · [Report a problem](https://github.com/Vadale/project-continuity-skill/issues)
 
 Resume AI-assisted work from current evidence after compaction or changing
 assistants. Keep a useful checkpoint, discover missing work and finish the next
@@ -20,7 +20,7 @@ assesses what those observations mean for each claim.
 Ask the built-in installer:
 
 ```text
-$skill-installer install https://github.com/Vadale/project-continuity/tree/main/skills/project-continuity
+$skill-installer install https://github.com/Vadale/project-continuity-skill/tree/main/skills/project-continuity
 ```
 
 Or copy the complete [skills/project-continuity](skills/project-continuity) folder into
@@ -104,5 +104,5 @@ MIT license; see [LICENSE](LICENSE).
 
 ## Related workflows
 
-[R analysis](https://github.com/Vadale/r-statistical-analysis), [finding triage](https://github.com/Vadale/sec-graph-triage), [personal AI-project feedback](https://github.com/Vadale/ai-project-coach), [bounded action approval](https://github.com/Vadale/sentinel-action-guard), [sharing review](https://github.com/Vadale/publication-fit-review).
+[R analysis](https://github.com/Vadale/r-statistical-analysis-skill), [finding triage](https://github.com/Vadale/sec-graph-triage-skill), [personal AI-project feedback](https://github.com/Vadale/ai-project-coach-skill), [bounded action approval](https://github.com/Vadale/sentinel-action-guard-skill), [sharing review](https://github.com/Vadale/publication-fit-review-skill).
 These are independent products; none is a required companion.
