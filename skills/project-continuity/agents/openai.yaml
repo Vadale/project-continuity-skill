@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Continuity"
+  short_description: "Resume project work against current evidence"
+  default_prompt: "Use $project-continuity to check this handoff against the current files and finish the authorized remaining work."
