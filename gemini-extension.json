@@ -1,0 +1,5 @@
+{
+  "name": "project-continuity-skill",
+  "version": "0.1.2",
+  "description": "Resume or hand off AI-assisted projects by checking checkpoint claims against current evidence and recovering unfinished authorized work."
+}

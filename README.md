@@ -15,6 +15,26 @@ assesses what those observations mean for each claim.
 
 ![Checkpoint: What ran, failed or is missing and the next bounded action; Inspect: Relevant current files and which evidence still applies; Resume: Finish the requested work without replaying everything.](assets/workflow.svg)
 
+## Install with skills.sh or Gemini CLI
+
+Use the cross-agent installer and select your host:
+
+```sh
+npx skills add Vadale/project-continuity-skill --skill project-continuity
+```
+
+Or install the Gemini CLI extension from its packaged release:
+
+```sh
+gemini extensions install https://github.com/Vadale/project-continuity-skill
+```
+
+The host must have access to the materials you explicitly select. Installation does not grant access to other projects, accounts or conversations.
+
+Restart the assistant session and confirm the skill is visible before use.
+These packaging instructions do not establish full-workflow testing in every
+client, automatic model selection or a gallery ranking.
+
 ## Try a natural request
 
 Once this skill is installed and visible to your assistant, try:
