@@ -15,6 +15,18 @@ assesses what those observations mean for each claim.
 
 ![Checkpoint: What ran, failed or is missing and the next bounded action; Inspect: Relevant current files and which evidence still applies; Resume: Finish the requested work without replaying everything.](assets/workflow.svg)
 
+## Try a natural request
+
+Once this skill is installed and visible to your assistant, try:
+
+> We are continuing in a new chat. Compare this handoff with the current project files, tell me what is really unfinished and identify the next authorized step.
+
+An evidence-based account of current versus historical results and a bounded next action, using the project conventions already in place.
+
+See the [synthetic input/output example](examples/natural-request.md) for expected
+behavior and nearby tasks that need another workflow. Automatic selection
+depends on your host and model; explicit invocation remains available.
+
 ## Install in Codex
 
 Ask the built-in installer:

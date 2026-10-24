@@ -1,6 +1,6 @@
 ---
 name: project-continuity
-description: Close or resume AI-assisted work after context loss or changing assistants, checking consequential checkpoint claims against current files and the user's task. Use for handoffs, resumption and stale project-state checks; preserves existing project conventions.
+description: "Resume or hand off an existing AI-assisted project after context loss, a new chat or a change of assistant. Check consequential checkpoint claims against relevant current files and recover unfinished authorized work. Use for handoffs, session closure and stale-state checks; not generic summarization or a new-project kickoff."
 ---
 
 # Project continuity
